@@ -1,0 +1,10 @@
+A,B,C = input("Input a mass in  stones, pounds, ounces:").split()
+A = int(A)
+B = int(B)
+C = int(C)
+
+A = (A*14)/2.2
+B = B/2.2
+C = (C/16)/2.2
+kg = A+B+C
+print("The equivalent mass in kg =%.2f"%kg)
